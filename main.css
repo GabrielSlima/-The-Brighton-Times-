@@ -31,7 +31,11 @@ ul {
  * Common
  * 
  */
-
+.container
+{
+  display:flex;
+  flex-wrap:wrap;
+}
 .news__more {
   float: right;
   font-size: .8em;
@@ -142,7 +146,7 @@ main {
 
 .hero {
   float: left;
-  width: 100%;
+  width: 50%;
   position: relative;
   background-image: url("./images/dog.jpg");
   background-size: cover;
@@ -170,7 +174,7 @@ main {
 
 .top-news {
   float: right;
-  width: 100%;
+  width: 50%;
   height: 300px;
   border-bottom: 1px solid #E0E0E0;
   padding: 1em;
@@ -215,7 +219,7 @@ main {
  */
 
 .scores {
-  width: 100%;
+  width: 50%;
   float: left;
   padding-top: 1em;
 }
@@ -265,7 +269,7 @@ main {
 
 .weather {
   float: right;
-  width: 100%;
+  width: 50%;
   padding: 1em;
 }
 
